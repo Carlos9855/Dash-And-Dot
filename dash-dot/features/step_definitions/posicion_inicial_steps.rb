@@ -1,5 +1,6 @@
-Given("visito la pagina de comandos") do
+Given("visito la pagina de ingrese los comandos") do
   visit '/'
+  click_button('Elegir Juego')
   click_button('iniciar')
 end
 
